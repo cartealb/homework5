@@ -238,7 +238,17 @@ a:focus {
 }
 
 @media print {
+    .pricing {
+        flex-direction: row;
+        align-items: flex-start;
+    }
     .card {
         flex-basis: 200px;
+    }
+    .gallery {
+        display: none;
+    }
+    #gallery {
+        display: none;
     }
 }
