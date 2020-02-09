@@ -239,7 +239,10 @@ a:focus {
 
 @media print {
     .pricing {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
         flex-direction: row;
+        -webkit-box-align: start;
         align-items: flex-start;
     }
     .card {
