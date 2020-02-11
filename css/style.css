@@ -102,6 +102,7 @@ Keyframes for animation*/
     border-radius: 7px;
     padding: 0 0 50px 0;
     flex-basis: 400px;
+    width: 400px;
 }
 
 .card>header {
@@ -208,7 +209,7 @@ a:focus {
         flex-direction: row;
     }
     .card {
-        flex-basis: 225px;
+        flex-basis: 220px;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         flex-direction: row;
@@ -226,6 +227,7 @@ a:focus {
         justify-content: space-between;
     }
     .nav_links {
+        -webkit-display: box;
         display: -webkit-box;
         display: flex;
         -webkit-box-orient: horizontal;
