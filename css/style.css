@@ -209,7 +209,7 @@ a:focus {
         flex-direction: row;
     }
     .card {
-        flex-basis: 220px;
+        flex-basis: 250px;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         flex-direction: row;
